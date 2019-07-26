@@ -11,7 +11,7 @@ if __name__ == '__main__':
         files={'image_file': open(path+'/juqiamyi.jpg', 'rb')},
         # data={'size': 'auto','bg_color':'FFB6C1'},
         data={'size': 'auto'},
-        headers={'X-Api-Key': 'Zw9nrU3mKzejU8kiNQGbRTWK'},
+        headers={'X-Api-Key': '****YOU API KEY****'},
     )
     if response.status_code == requests.codes.ok:
         with open(path+'/juqiamyi.png', 'wb') as out:
